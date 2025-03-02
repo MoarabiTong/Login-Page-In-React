@@ -5,9 +5,9 @@ import GoogleSvg from "../assets/icons8-google.svg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 
- 
 
-const Login = () => {
+
+const Home = () => {
   const [ showPassword, setShowPassword ] = useState(false);
 
 
@@ -20,7 +20,7 @@ const Login = () => {
           <div className="login-logo">
           </div>
           <div className="login-center">
-            <h2>Log in as Vendor</h2>
+            <h2>Log in as customer</h2>
             <p>Please enter your details</p>
             <form>
               <input type="email" placeholder="Email" />
@@ -60,4 +60,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Home;
